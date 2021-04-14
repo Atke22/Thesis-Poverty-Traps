@@ -1,0 +1,731 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     22206,        723]
+NotebookOptionsPosition[     21249,        698]
+NotebookOutlinePosition[     21666,        714]
+CellTagsIndexPosition[     21623,        711]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+Physical capital, natural capital, cultural capital (Intensification trap \
+model after transformation)\
+\>", "Subsection",
+ CellChangeTimes->{{3.8273071838880444`*^9, 
+  3.8273072372303696`*^9}},ExpressionUUID->"1c4b187c-7616-4f7d-ab98-\
+4c2a76f599d3"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     SubscriptBox["dk", "P"], "dt"], "=", 
+    RowBox[{"s", "(", 
+     SubscriptBox["k", "P"], ")"}]}], TraditionalForm]],ExpressionUUID->
+  "ce3506b0-7ea5-4720-8508-b63a2069b8a8"],
+ "E(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "N"], TraditionalForm]],ExpressionUUID->
+  "27269903-5d26-4bf3-b0b0-8c3f77adccea"],
+ ")f(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "P"], TraditionalForm]],ExpressionUUID->
+  "79813dab-9f81-4b06-9edd-311deb0441ea"],
+ ")-(",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[Delta]", "P"], "+", "n"}], TraditionalForm]],
+  ExpressionUUID->"78de9918-2f02-4e34-b9e2-f689de8c624e"],
+ ")",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "P"], TraditionalForm]],ExpressionUUID->
+  "aca75fbb-fbe2-4da4-8957-ef9d682de829"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    SubscriptBox["dK", "N"], "dt"], TraditionalForm]],ExpressionUUID->
+  "a9041f01-c6d3-4fa5-80c1-78687e50a492"],
+ " = T(",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["K", "C"], ")"}], 
+    RowBox[{"G", "(", 
+     SubscriptBox["K", "N"], ")"}], 
+    SubscriptBox["L", "2"]}], TraditionalForm]],ExpressionUUID->
+  "8786eb00-0222-4448-a422-ce542f9bafc8"],
+ "(",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["k", "P"], ")"}], "-", 
+    RowBox[{
+     SubscriptBox["\[Delta]", "N"], 
+     SubscriptBox["K", "N"]}]}], TraditionalForm]],ExpressionUUID->
+  "02d4bd6d-00c7-4c1d-bcc7-bb8687ff1b2a"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     SubscriptBox["dK", "C"], "dt"], "=", 
+    RowBox[{"P", "(", 
+     SubscriptBox["K", "N"]}]}], TraditionalForm]],ExpressionUUID->
+  "4254d689-f6fc-4aee-a518-60df473fae62"],
+ ")-",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[Delta]", "C"], 
+    SubscriptBox["K", "C"]}], TraditionalForm]],ExpressionUUID->
+  "a7b8c8fd-13c8-48aa-8a55-5b5ce7199976"],
+ "\n\nf(",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["k", "P"], ")"}], "=", 
+    SubsuperscriptBox["Ak", "P", 
+     SubscriptBox["\[Alpha]", "1"]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e5317b8a-235f-4c7e-8ba8-ce6e5d972561"],
+ "\ns(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "P"], TraditionalForm]],ExpressionUUID->
+  "44514ebb-8358-41d6-8440-8dc140dee5f3"],
+ ") = ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["s", "1"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ac460d0b-6a89-4187-a1b6-183ac40a46ce"],
+ "+ ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{
+     SubscriptBox["s", "2"], "-", 
+     SubscriptBox["s", "1"]}], 
+    RowBox[{"1", "+", 
+     SuperscriptBox["\[ExponentialE]", 
+      RowBox[{"-", 
+       RowBox[{
+        SubscriptBox["s", "3"], "(", 
+        RowBox[{
+         SubscriptBox["k", "P"], "-", "d"}], ")"}]}]]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "fc6d6771-d7e4-45b2-aaaa-d60ffe567d66"],
+ "\nE(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "N"], TraditionalForm]],ExpressionUUID->
+  "5e1142e9-f597-4272-9d42-29c802fb4a83"],
+ ") = q",
+ Cell[BoxData[
+  FormBox[
+   SubsuperscriptBox["K", "N", 
+    SubscriptBox["\[Alpha]", "2"]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c6ddcca5-8b28-41d2-acc4-c0a13a0d5144"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"G", "(", 
+    SubscriptBox["K", "N"], ")"}], TraditionalForm]],ExpressionUUID->
+  "5e69668f-7b51-4387-b0b7-9db3c2498b15"],
+ " = ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    SubsuperscriptBox["bK", "N", "2"], 
+    RowBox[{
+     SuperscriptBox["H", "2"], "+", 
+     SubsuperscriptBox["K", "N", "2"]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ede3de28-7d07-4955-aa9d-3a17e6bfd455"],
+ "\nP(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "N"], TraditionalForm]],ExpressionUUID->
+  "a6b68895-9d56-4d5d-aeb4-0e5acf934d51"],
+ ") = ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{
+     SubscriptBox["P", "0"], 
+     SubscriptBox["K", "N"]}], 
+    RowBox[{
+     SubscriptBox["P", "N"], "+", 
+     SubscriptBox["K", "N"]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "263a30e7-1ea3-4894-b97c-fc395352de59"],
+ "\nT(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "C"], TraditionalForm]],ExpressionUUID->
+  "09d6d0f2-e717-4fa8-95e9-2b8591544381"],
+ ") = ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["T", "0"], 
+    SubscriptBox["K", "C"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "80e80670-3810-4e87-b0f7-b117ab634883"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["L", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "772ab635-4fa2-4dc4-ad71-f6e39c749bc7"],
+ "(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "P"], TraditionalForm]],ExpressionUUID->
+  "041d52d5-a7cd-4080-9824-621880da5dad"],
+ ") = \[Rho] + ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"1", "-", "\[Rho]"}], 
+    RowBox[{"1", "+", 
+     RowBox[{
+      SubscriptBox["c", "1"], 
+      SubsuperscriptBox["k", "P", 
+       SubscriptBox["c", "2"]]}]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "64173ccd-3c43-4a7c-90f6-806161ba4bcf"],
+ "\n\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "P"], TraditionalForm]],ExpressionUUID->
+  "eda69f90-ec9d-4dd1-adcc-61cdcb0fa1c5"],
+ ": physical capital\nf(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "P"], TraditionalForm]],ExpressionUUID->
+  "944c2499-f091-4b25-be9e-6f996f8d60fb"],
+ "): standard neoclassical production function\ns(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "P"], TraditionalForm]],ExpressionUUID->
+  "8e37564a-7655-4ab8-aa85-1c709fb4a3c5"],
+ "): savings rate from initial value ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["s", "1"], TraditionalForm]],ExpressionUUID->
+  "757759f6-ee7e-42a9-b53a-a561b184a8df"],
+ " up to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["s", "2"], " ", "at", " "}], TraditionalForm]],
+  ExpressionUUID->"243edf83-745b-487d-abae-3890932edf03"],
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "P"], TraditionalForm]],ExpressionUUID->
+  "144a3040-8b01-4cfa-adb4-6158fbf830d8"],
+ "=d\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Delta]", "P"], TraditionalForm]],ExpressionUUID->
+  "f8d8b406-4780-4ec0-b475-4add6f2a7e49"],
+ ": depreciation rate physical capital\nn: population growth rate\nA: \
+technology\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "N"], TraditionalForm]],ExpressionUUID->
+  "2269766b-06c2-4dd2-b5d1-b9ce19750151"],
+ ": natural capital\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"G", "(", 
+    SubscriptBox["K", "N"], ")"}], TraditionalForm]],ExpressionUUID->
+  "013355ea-8cb0-412c-a4e4-a069cffc566f"],
+ ": natural capital growth function\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Delta]", "N"], TraditionalForm]],ExpressionUUID->
+  "8997f3da-7786-4ad3-985f-bff3f4f727c2"],
+ ": depreciation rate of natural capital\nE(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "N"], TraditionalForm]],ExpressionUUID->
+  "609ed208-fbc0-402a-b1d2-c89e7a2cda3b"],
+ "): function representing the contributions of natural capital to production\
+\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["L", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "eb6405c8-1784-4eab-b064-014055608678"],
+ "(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "P"], TraditionalForm]],ExpressionUUID->
+  "bbe7b02d-5234-44d2-83ea-ab3433464131"],
+ "): reduction in growth of natural capital due to physical capital\nP(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "N"], TraditionalForm]],ExpressionUUID->
+  "9b47e08f-2ec1-4a18-9aba-489ef7e08d60"],
+ "): practice of traditional activities\nT(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "C"], TraditionalForm]],ExpressionUUID->
+  "ffd3bd8e-e1fb-4391-9072-192f5908027f"],
+ "): effect of cultural capital on growth of natural capital\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Delta]", "C"], TraditionalForm]],ExpressionUUID->
+  "85d2af03-65f3-4ba7-a521-e34ab4eac9e2"],
+ ": depreciation rate of cultural capital\n"
+}], "Text",
+ CellChangeTimes->{
+  3.827307282746959*^9, 3.827307337233675*^9, {3.8273080130862827`*^9, 
+   3.827308034164208*^9}, {3.827308117081711*^9, 3.8273081346096754`*^9}, {
+   3.8273082238390265`*^9, 3.8273082653943253`*^9}, {3.8273083373960643`*^9, 
+   3.827308406505114*^9}, {3.8273084478829765`*^9, 3.827308794937868*^9}, {
+   3.827308825730248*^9, 3.827308848603346*^9}, {3.8273089387198977`*^9, 
+   3.8273089459881163`*^9}, {3.827309006964136*^9, 3.82730915225646*^9}, {
+   3.827309260967472*^9, 3.8273094042222357`*^9}, {3.827309434882387*^9, 
+   3.8273094586097717`*^9}, {3.827309761519188*^9, 3.827309836748699*^9}, {
+   3.8273098897791214`*^9, 3.8273099271389155`*^9}, {3.8273099615121136`*^9, 
+   3.8273099682384768`*^9}, {3.827310245558858*^9, 3.8273102689343843`*^9}, {
+   3.8273103049677906`*^9, 3.8273103202816505`*^9}, {3.82731036826432*^9, 
+   3.8273104053154078`*^9}, {3.8273104406374807`*^9, 3.827310456378927*^9}, {
+   3.827310556788917*^9, 3.8273105600625286`*^9}, {3.8273106480045657`*^9, 
+   3.8273106729874487`*^9}, {3.827310723255724*^9, 3.827310809752859*^9}, {
+   3.8273108399493103`*^9, 3.8273108505228567`*^9}, {3.827310893394678*^9, 
+   3.8273109050511904`*^9}, {3.827311221769966*^9, 3.827311247650826*^9}, {
+   3.827311308045209*^9, 3.827311336246375*^9}, {3.8273114957698393`*^9, 
+   3.8273115227054567`*^9}, {3.827311562573975*^9, 3.827311627546438*^9}, {
+   3.8273116738771515`*^9, 3.8273117055545254`*^9}, 3.82731179308995*^9, {
+   3.8273118277867155`*^9, 3.827311829911854*^9}, {3.827311876304531*^9, 
+   3.8273119335547886`*^9}, {3.827311987597088*^9, 3.827311995631341*^9}, {
+   3.8273125741007147`*^9, 
+   3.827312578111234*^9}},ExpressionUUID->"4cc7f960-1f56-45cd-8397-\
+a740ffa074ef"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Physical capital, natural capital, cultural capital, social capital\
+\>", "Subsection",
+ CellChangeTimes->{{3.82731211937116*^9, 
+  3.827312131834428*^9}},ExpressionUUID->"ef64710f-f93c-4476-911d-\
+43265e86e601"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     SubscriptBox["dk", "P"], "dt"], "=", 
+    RowBox[{"s", "(", 
+     SubscriptBox["k", "P"], ")"}]}], TraditionalForm]],ExpressionUUID->
+  "13e3cc2a-a51e-40af-a568-3903fab02153"],
+ "E(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "N"], TraditionalForm]],ExpressionUUID->
+  "5d637bdb-773f-4458-a6c3-5c682f34c14e"],
+ ")f(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "P"], TraditionalForm]],ExpressionUUID->
+  "37daa206-417f-4e6a-8349-25e47a90ac1a"],
+ ")-(",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[Delta]", "P"], "+", "n"}], TraditionalForm]],
+  ExpressionUUID->"5b6de7e8-408e-4114-b9d9-42d1b96f3d9c"],
+ ")",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "P"], TraditionalForm]],ExpressionUUID->
+  "325fe529-5d7a-44e1-9226-910ff9a5b9a5"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    SubscriptBox["dK", "N"], "dt"], TraditionalForm]],ExpressionUUID->
+  "25603cc7-a135-4e53-b22a-ef83f8f210da"],
+ " = T(",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["K", "C"], ")"}], 
+    RowBox[{"G", "(", 
+     SubscriptBox["K", "N"], ")"}], 
+    SubscriptBox["L", "2"]}], TraditionalForm]],ExpressionUUID->
+  "13b6cc41-ff6b-4a6c-a16a-b8e04a7b9347"],
+ "(",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["k", "P"], ")"}], "-", 
+    RowBox[{
+     SubscriptBox["\[Delta]", "N"], 
+     SubscriptBox["K", "N"]}]}], TraditionalForm]],ExpressionUUID->
+  "7675f889-f8bd-4443-80a8-8fdaf6467d02"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     SubscriptBox["dK", "C"], "dt"], "=", 
+    RowBox[{"P", "(", 
+     SubscriptBox["K", "N"]}]}], TraditionalForm]],ExpressionUUID->
+  "4b608990-9506-4188-83c0-e7934e6662c1"],
+ ")M(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "S"], TraditionalForm]],ExpressionUUID->
+  "69634df6-e589-49e9-94ce-3196f0af2f57"],
+ ")-",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[Delta]", "C"], 
+    SubscriptBox["K", "C"]}], TraditionalForm]],ExpressionUUID->
+  "1d86078c-2b7f-4b2d-ba85-da3257b2aeb8"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    SubscriptBox["dK", "S"], "dt"], TraditionalForm]],ExpressionUUID->
+  "3ce07fd3-50c8-4211-ae62-ed3530ddb13a"],
+ " = I(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "S"], TraditionalForm]],ExpressionUUID->
+  "95991d69-e493-42e1-b08d-7f7e281c25b5"],
+ ")J(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "C"], TraditionalForm]],ExpressionUUID->
+  "394970a2-ffb7-4425-92e4-755dc8cbab9e"],
+ ")-",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Delta]", "S"], TraditionalForm]],ExpressionUUID->
+  "74acece5-6a57-445f-ac5e-f198b348f9e4"],
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "S"], TraditionalForm]],ExpressionUUID->
+  "cc9204a4-dda7-41e8-b44a-6e9bc103f0e8"],
+ "\n\nI(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "S"], TraditionalForm]],ExpressionUUID->
+  "16c222ff-a17e-45f3-b8c0-fbf6e21bf2ad"],
+ ") = ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["I", "0"], 
+    RowBox[{
+     SubscriptBox["K", "S"], "(", 
+     RowBox[{
+      SubscriptBox["I", "1"], "-"}]}]}], TraditionalForm]],ExpressionUUID->
+  "e5431ab4-c288-4319-84db-00a3456eaac7"],
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "S"], TraditionalForm]],ExpressionUUID->
+  "865f899a-aca5-4588-b3c3-ef711bbba792"],
+ ")\nJ(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "C"], TraditionalForm]],ExpressionUUID->
+  "cfc16191-8a2f-4807-ab59-d89dd83f6bc5"],
+ ") = ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    SubscriptBox["K", "C"], 
+    SubscriptBox["J", "0"]], TraditionalForm]],ExpressionUUID->
+  "87612bfa-ba9b-4dc7-bd6e-4ebbd0416fcf"],
+ "\nM(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "S"], TraditionalForm]],ExpressionUUID->
+  "ede5e302-abf2-4551-8bfe-efdc1a8e4c9c"],
+ ") = ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    SubscriptBox["K", "S"], 
+    SubscriptBox["M", "0"]], TraditionalForm]],ExpressionUUID->
+  "25a0ce87-4a04-457c-aa6d-5972dc8dc803"],
+ "\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["K", "S"], " "}], TraditionalForm]],ExpressionUUID->
+  "4974f4fa-9f71-41fb-bd06-dc360d7cd3a6"],
+ "= social capital\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[Delta]", "S"], "=", 
+    RowBox[{
+    "depreciation", " ", "rate", " ", "of", " ", "social", " ", "capital"}]}],
+    TraditionalForm]],ExpressionUUID->"d5d7e408-4dc9-4099-a95b-50ca44c86651"],
+ "\nI(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "S"], TraditionalForm]],ExpressionUUID->
+  "0a9ac59a-0356-4d7d-8c6f-7bce5e158b01"],
+ ") = growth of social capital\nJ(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "C"], TraditionalForm]],ExpressionUUID->
+  "e2b069ee-70c0-4861-8a5e-138a93b9d43b"],
+ ") = increase in growth of social capital due to cultural capital\nM(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "S"], TraditionalForm]],ExpressionUUID->
+  "b51413ef-d19f-476f-b777-d11976c5a5f0"],
+ ") = increase in growth of cultural capital due to social capital\n"
+}], "Text",
+ CellChangeTimes->{{3.827312231198249*^9, 3.8273122647554197`*^9}, {
+   3.827312405906804*^9, 3.8273124067767477`*^9}, {3.8273125516992025`*^9, 
+   3.8273125610532875`*^9}, 
+   3.8273126020725756`*^9},ExpressionUUID->"09f43320-451b-4569-b9fc-\
+66842b8a9145"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Physical capital, natural capital, cultural capital, social capital, human \
+capital\
+\>", "Subsection",
+ CellChangeTimes->{{3.827312616709377*^9, 3.827312627090022*^9}, {
+  3.8273143700144815`*^9, 
+  3.827314372391968*^9}},ExpressionUUID->"a95234be-7a6e-48ab-bc8d-\
+bca4d3e184ea"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     SubscriptBox["dk", "P"], "dt"], "=", 
+    RowBox[{"s", "(", 
+     SubscriptBox["k", "P"], ")"}]}], TraditionalForm]],ExpressionUUID->
+  "040fb9bf-5197-453a-bdce-f8991e71032a"],
+ "E(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "N"], TraditionalForm]],ExpressionUUID->
+  "fdac3bc8-1653-47ee-946a-59eaf0ba0167"],
+ ")f(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "P"], TraditionalForm]],ExpressionUUID->
+  "0d517fb5-f9d7-4fe8-be75-2ba8a72a4434"],
+ ")",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox[
+     SubscriptBox["K", "S"], "\[Eta]"], 
+    SuperscriptBox[
+     SubscriptBox["K", "H"], 
+     RowBox[{"1", "-", "\[Alpha]1", "-", "\[Eta]"}]]}], TraditionalForm]],
+  ExpressionUUID->"370b0e6c-567e-455d-9599-f45eb17f21cf"],
+ "-(",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[Delta]", "P"], "+", "n"}], TraditionalForm]],
+  ExpressionUUID->"54f5ebca-2079-456f-8b28-0436215915f4"],
+ ")",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "P"], TraditionalForm]],ExpressionUUID->
+  "b2827d7b-7fe7-4b1e-babf-0e5f51e23ab5"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    SubscriptBox["dK", "N"], "dt"], TraditionalForm]],ExpressionUUID->
+  "278da72a-fdbc-41bc-abeb-002f59ab5c93"],
+ " = T(",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["K", "C"], ")"}], 
+    RowBox[{"G", "(", 
+     SubscriptBox["K", "N"], ")"}], 
+    SubscriptBox["L", "2"]}], TraditionalForm]],ExpressionUUID->
+  "75ff6f17-6a04-4ffb-adf5-188535a764c9"],
+ "(",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["k", "P"], ")"}], "-", 
+    RowBox[{
+     SubscriptBox["\[Delta]", "N"], 
+     SubscriptBox["K", "N"]}]}], TraditionalForm]],ExpressionUUID->
+  "3af66cda-4337-46cf-8db9-73edb65b5c02"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     SubscriptBox["dK", "C"], "dt"], "=", 
+    RowBox[{"P", "(", 
+     SubscriptBox["K", "N"]}]}], TraditionalForm]],ExpressionUUID->
+  "c86fd481-babf-4ff3-9fcc-6bf35d8931f2"],
+ ")M(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "S"], TraditionalForm]],ExpressionUUID->
+  "764ce90f-144e-43eb-aec1-6b62487806a3"],
+ ")-",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[Delta]", "C"], 
+    SubscriptBox["K", "C"]}], TraditionalForm]],ExpressionUUID->
+  "f40b2b0c-bf73-4d41-bd1d-a454cf306ed6"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    SubscriptBox["dK", "S"], "dt"], TraditionalForm]],ExpressionUUID->
+  "9f5f9db3-1e22-47ee-9b60-3a756c7628fb"],
+ " = I(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "S"], TraditionalForm]],ExpressionUUID->
+  "dfb2d2f2-38aa-4edd-ac79-4f7fb5bce53c"],
+ ")J(",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "C"], TraditionalForm]],ExpressionUUID->
+  "6bb1b480-35bc-4649-bfec-4c68e20c1d30"],
+ ")+\[Gamma]",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "H"], TraditionalForm]],ExpressionUUID->
+  "318c854c-e5a0-46a8-af21-b460e1725b51"],
+ "-",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Delta]", "S"], TraditionalForm]],ExpressionUUID->
+  "e990f812-e124-484a-9e8c-b192d627ee1f"],
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "S"], TraditionalForm]],ExpressionUUID->
+  "c4682084-69b6-4793-85b7-5a39e80f7b28"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    SubscriptBox["dK", "H"], "dt"], TraditionalForm]],ExpressionUUID->
+  "22b876e6-fc41-4817-bf5b-da264706a1a5"],
+ " =\[Xi]",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "H"], TraditionalForm]],ExpressionUUID->
+  "74377bf7-e0e4-4b72-a829-4cc4834c0796"],
+ "+\[Alpha]",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "S"], TraditionalForm]],ExpressionUUID->
+  "3748dcd4-0160-4f16-a1ee-89b60b89536a"],
+ "-",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Delta]", "H"], TraditionalForm]],ExpressionUUID->
+  "1cc3db0e-59f7-4878-946f-22268a978e4f"],
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "H"], TraditionalForm]],ExpressionUUID->
+  "dd86b67b-dd3e-4e07-b4f5-d16fc7764300"],
+ "\n\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "H"], TraditionalForm]],ExpressionUUID->
+  "0cab42e4-69d7-4519-8ba3-8089dbd3e837"],
+ ": human capital\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[Delta]", "H"], "=", 
+    RowBox[{
+    "depreciation", " ", "rate", " ", "of", " ", "human", " ", "capital"}]}], 
+   TraditionalForm]],ExpressionUUID->"6bd4c08a-ffbe-4d7b-98ca-72abf24f9655"]
+}], "Text",
+ CellChangeTimes->{{3.827312673857047*^9, 3.8273126995280323`*^9}, {
+  3.8273144040272017`*^9, 3.8273144141726055`*^9}, {3.8273785155252943`*^9, 
+  3.827378522351338*^9}},ExpressionUUID->"b4e8e73e-9634-479c-9f79-\
+6d8b61cf3d77"]
+}, Open  ]]
+},
+WindowSize->{1141.2, 580.1999999999999},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"910fc5de-e0ff-4930-bbf6-b00f467248d9"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 263, 6, 54, "Subsection",ExpressionUUID->"1c4b187c-7616-4f7d-ab98-4c2a76f599d3"],
+Cell[846, 30, 9883, 300, 685, "Text",ExpressionUUID->"4cc7f960-1f56-45cd-8397-a740ffa074ef"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10766, 335, 222, 5, 54, "Subsection",ExpressionUUID->"ef64710f-f93c-4476-911d-43265e86e601"],
+Cell[10991, 342, 5289, 180, 374, "Text",ExpressionUUID->"09f43320-451b-4569-b9fc-66842b8a9145"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16317, 527, 291, 7, 54, "Subsection",ExpressionUUID->"a95234be-7a6e-48ab-bc8d-bca4d3e184ea"],
+Cell[16611, 536, 4622, 159, 219, "Text",ExpressionUUID->"b4e8e73e-9634-479c-9f79-6d8b61cf3d77"]
+}, Open  ]]
+}
+]
+*)
+
